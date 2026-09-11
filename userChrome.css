@@ -13,3 +13,7 @@
 :is(.webextension-browser-action, .eom-addon-button)[data-extensionid="{d634138d-c276-4fc8-924b-40a0ea21d284}"] .toolbarbutton-icon {
   list-style-image: url("icons/1password.svg");
 }
+
+:is(.webextension-browser-action, .eom-addon-button)[data-extensionid="{762f9885-5a13-4abd-9c77-433dcd38b8fd}"] .toolbarbutton-icon {
+  list-style-image: url("icons/return-youtube-dislike.svg");
+}
