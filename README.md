@@ -1,6 +1,8 @@
 # Firefox Custom Extension Icons
 
-Customize and unify your Firefox toolbar extension icons using custom SVGs and `userChrome.css`.
+Customize and unify your Firefox and Zen Browser toolbar extension icons using custom SVGs and `userChrome.css`.
+
+![Custom extension icons showcased in Zen Browser](screenshot.png)
 
 Includes presets for:
 - **Bitwarden**
