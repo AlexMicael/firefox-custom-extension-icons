@@ -6,6 +6,7 @@ Includes presets for:
 - **Bitwarden**
 - **uBlock Origin**
 - **Firefox Multi-Account Containers**
+- **1Password**
 
 ---
 
@@ -32,6 +33,7 @@ Copy `userChrome.css` and the `icons/` folder into your `chrome/` folder:
 <firefox-profile>/
 └── chrome/
     ├── icons/
+    │   ├── 1password.svg
     │   ├── bitwarden.svg
     │   ├── firefox-containers.svg
     │   └── ublock.svg
