@@ -1,0 +1,11 @@
+:is(.webextension-browser-action, .eom-addon-button)[data-extensionid="{446900e4-71c2-419f-a6a7-df9c091e268b}"] .toolbarbutton-icon {
+  list-style-image: url("icons/bitwarden.svg");
+}
+
+:is(.webextension-browser-action, .eom-addon-button)[data-extensionid="uBlock0@raymondhill.net"] .toolbarbutton-icon {
+  list-style-image: url("icons/ublock.svg");
+}
+
+:is(.webextension-browser-action, .eom-addon-button)[data-extensionid="@testpilot-containers"] .toolbarbutton-icon {
+  list-style-image: url("icons/firefox-containers.svg");
+}
