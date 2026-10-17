@@ -15,7 +15,7 @@ Includes presets for:
 
 ## Setup Instructions
 
-### 1. Enable Custom Stylesheets in Firefox
+### 1. Enable Custom Stylesheets & SVG Context Properties in Firefox
 1. In Firefox, navigate to `about:config`.
 2. Accept the warning prompt.
 3. Search for:
@@ -23,6 +23,11 @@ Includes presets for:
    toolkit.legacyUserProfileCustomizations.stylesheets
    ```
 4. Toggle it to **`true`**.
+5. Search for:
+   ```text
+   svg.context-properties.content.enabled
+   ```
+6. Ensure it is set to **`true`** (this allows custom SVGs to inherit theme colors via `fill="context-fill"`).
 
 ### 2. Locate Your Profile Folder
 1. Navigate to `about:support`.
